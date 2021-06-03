@@ -69,6 +69,7 @@
 }
 
 #gray-font {
+	text-decoration-line: none ;
 	font-family: Arial;
 	color: gray ;
 }
