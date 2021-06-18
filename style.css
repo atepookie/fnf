@@ -1,7 +1,7 @@
 .header {
 	width: 100% ;
 	height: 40px ;
-	background-color: #8a8a8a;
+	background-color: #68d11d;
 	font-family: Arial;
 	font-weight: medium ;
 	font-size: 1em ;
@@ -43,13 +43,6 @@
 	font-weight: medium ;
 }
 
-#end-text {
-	font-family: Arial;
-	font-size: 1em ;
-	color: gray ;
-	text-align: center ;
-}
-
 #fnf-lite-end {
 	font-family: Arial;
 	font-weight: bold
@@ -62,7 +55,7 @@
 	font-family: Arial;
 	font-weight: medium
 	font-size: 1em;
-	color: #8a8a8a ;
+	color: #68d11d ;
 }
 
 #comments {
@@ -87,4 +80,12 @@
 	font-family: Arial;
 	font-size: 1em ;
 	color: gray ;
+}
+
+#username {
+	font-family: Arial
+}
+
+#usercomment {
+	font-family: Arial;
 }
