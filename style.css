@@ -47,7 +47,6 @@
 	font-family: Arial;
 	font-weight: bold
 	font-size: 1em ;
-	color: gray ;
 	text-align: center ;
 }
 
@@ -61,29 +60,17 @@
 #comments {
 	font-family: Arial;
 	font-weight: medium;
-	font-size: 2em;
-	color: gray;
+	font-size: 1.5em;
 }
 
 #gray-font {
 	text-decoration-line: none ;
 	font-family: Arial;
-	color: gray ;
-}
-
-#changes {
-	font-family: Arial;
-	color: white ;
-}
-
-#other-changes {
-	font-family: Arial;
-	font-size: 1em ;
-	color: gray ;
 }
 
 #username {
-	font-family: Arial
+	font-family: Arial;
+	font-weight: bold;
 }
 
 #usercomment {
