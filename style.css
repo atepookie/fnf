@@ -34,14 +34,14 @@
 	height: 30% ;
 }
 
-#home {
+.home {
 	color: rgb(255, 255, 255) ;
 	font-family: Arial;
 	text-decoration-line: none ;
 	font-weight: bold ;
 }
 
-#white-link {
+.white-link {
 	font-size: 1em;
 	font-family: Arial;
 	color: rgb(0, 0, 0);
@@ -49,38 +49,38 @@
 	font-weight: normal;
 }
 
-#fnf-lite-end {
+.fnf-lite-end {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 1em;
 	text-align: center;
 }
 
-#header-fnf-lite {
+.header-fnf-lite {
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 2em;
 	color: #6FFF00;
 }
 
-#comments {
+.comments {
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 1.5em;
 }
 
-#gray-font {
+.gray-font {
 	text-decoration-line: none;
 	font-family: Arial;
 	color: #808080;
 }
 
-#username {
+.username {
 	font-family: Arial;
 	color: #A0A0A0;
 }
 
-#usercomment {
+.usercomment {
 	font-family: Arial;
 	color: #ffffff;
 }
