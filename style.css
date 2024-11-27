@@ -1,12 +1,22 @@
+.body {
+	background-color: #000000;
+    padding: 0.5em;
+}
+
 .header {
 	width: 100% ;
 	height: 40px ;
-	background-color: #FF8800;
+	background-color: #6FFF00;
 	font-family: Arial;
-	font-weight: medium ;
+	font-weight: normal ;
 	font-size: 1em ;
 	text-align: center ;
-	color: white ;
+	color: rgb(0, 0, 0) ;
+	border-radius: 10px;
+}
+
+.marginright {
+	margin-right: 2em;
 }
 
 .scrolling {
@@ -17,11 +27,12 @@
 	overflow-y: hidden ;
 	white-space: nowrap ;
 	word-wrap: normal ;
+	border-radius: 10px;
 }
 
 .screenshot-image {
-	width: 50% ;
-	height: 50% ;
+	width: 30% ;
+	height: 30% ;
 }
 
 #br-header {
@@ -29,7 +40,7 @@
 }
 
 #home {
-	color: black ;
+	color: rgb(255, 255, 255) ;
 	font-family: Arial;
 	text-decoration-line: none ;
 	font-weight: bold ;
@@ -38,42 +49,89 @@
 #white-link {
 	font-size: 1em;
 	font-family: Arial;
-	color: black ;
-	text-decoration-line: none ;
-	font-weight: medium ;
+	color: rgb(0, 0, 0);
+	text-decoration-line: none;
+	font-weight: normal;
 }
 
 #fnf-lite-end {
 	font-family: Arial;
-	font-weight: bold
-	font-size: 1em ;
-	text-align: center ;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
 }
 
 #header-fnf-lite {
 	font-family: Arial;
-	font-weight: medium
-	font-size: 1em;
-	color: #FF8800 ;
+	font-weight: normal;
+	font-size: 2em;
+	color: #6FFF00;
 }
 
 #comments {
 	font-family: Arial;
-	font-weight: medium;
+	font-weight: normal;
 	font-size: 1.5em;
 }
 
 #gray-font {
-	text-decoration-line: none ;
+	text-decoration-line: none;
 	font-family: Arial;
+	color: #808080;
 }
 
 #username {
 	font-family: Arial;
-	color: #A0A0A0
+	color: #A0A0A0;
 }
 
 #usercomment {
 	font-family: Arial;
-	color: #202020
+	color: #ffffff;
+}
+
+.section {
+    padding: 10px;
+	border-radius: 20px;
+	background-color: #202020;
+	margin-bottom: 10px;
+}
+
+.comment {
+	margin-top: 10px;
+    padding: 10px;
+	border-radius: 10px;
+	background-color: #404040;
+}
+
+.time-and-date {
+	font-family: Arial;
+	font-size: 1em;
+	color: #808080;
+}
+
+.comment-author {
+	font-family: Arial;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.comment-content {
+	font-family: Arial;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.section-title {
+	font-family: Arial;
+	font-size: 1.5em;
+	color: #ffffff;
+	font-weight: normal;
+	margin: 10px;
+	margin-top: 0;
 }
