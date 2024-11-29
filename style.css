@@ -1,6 +1,24 @@
-.body {
+body {
 	background-color: #000000;
-    padding: 0.5em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a {
+	font-family: Arial;
+	color: #ffffff;
+}
+
+p {
+	font-family: Arial;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: Arial;
+	color: #ffffff;
 }
 
 .header {
@@ -128,5 +146,13 @@
 	color: #ffffff;
 	font-weight: normal;
 	margin: 0.5em;
+	margin-top: 0;
+}
+
+.add-comment-button {
+	font-family: Arial;
+	font-size: 1em;
+	color: #808080;
+	font-weight: bold;
 	margin-top: 0;
 }
